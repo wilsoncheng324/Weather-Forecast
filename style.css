@@ -1,0 +1,52 @@
+* {
+    font-size: 1.2rem;
+}
+
+#citysearch {
+    margin-bottom: 5px;
+}
+
+#search {
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    height: 75vh;
+    padding: 2px;
+}
+
+#currentcity, #future5day, #historycity {
+    border-radius: 3%;
+    margin: 2px;
+    
+}
+
+#historycity {
+    text-align: center;
+    background-color: rgb(201, 230, 220);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#currentcity {
+    
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#future5day { 
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
