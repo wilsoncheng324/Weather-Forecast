@@ -9,6 +9,7 @@ searchButton.addEventListener("click", function () {
 
 clearHistoryButton.addEventListener("click", function () {
     clearSearchHistory();
+    displaySearchHistory();
 });
 
 function clearSearchHistory() {
